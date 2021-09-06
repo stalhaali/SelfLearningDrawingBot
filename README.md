@@ -17,9 +17,12 @@ Short demonstartion
 ![Using drawing bot](https://github.com/stalhaali/SelfLearningDrawingBot/blob/main/readme_files/demo.gif "Gif of using app")
 
 # Installation
-See (**requirements.txt**) for all the required libraries. 
+See (**requirements.txt**) for all the required libraries.
+
 
 # How to run
+
+Download this repository once all required libraries are installed and then:
 
 ```bash
 python run.py
