@@ -6,6 +6,12 @@ import numpy as np
 
 
 def detect(data_url):
+        """returns all the objects drawn in the drawing, data_url, as a list
+
+        :param data_url: an html dataurl of an image. In this case, the drawing made by the user
+        :type data_url: str
+        :rtype: list
+        """
         offset = data_url.index(',')+1
         img_bytes = base64.b64decode(data_url[offset:])
         img = Image.open(BytesIO(img_bytes))
@@ -42,6 +48,13 @@ def detect(data_url):
         return all_pics
 
 def create_img(dic):
+        """Writes text, in this case the prediction, on the image of each object and then 
+        saves it as an image
+
+        :param dic: dictionary mapping the prediction to the number it was predicted at
+        :type dic: dictionary
+        :rtype: None
+        """
         for key in dic:
                 img = cv2.imread('drawingbot/static/picture' + str(key) + '.jpg')
                 cv2.putText(img, dic[key], (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 1, cv2.LINE_AA)

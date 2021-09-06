@@ -1,11 +1,24 @@
 import joblib
 import numpy as np
 import pyttsx3
+
+#Models are loaded, as they take a really long time to train and create. Saving them 
+#and making them loadable like this creates for a much more effecient and faster
+#program
 model = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model_joblib')
 model2 = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model2_joblib')
 model3 = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model3_joblib')
 
+
 def predict_img(lst, num):
+    """returns a dictionary mapping the prediction to the number it was predicted at
+    
+    :param lst: contains images that the model will predict on
+    :param num: contains the number indicating which model needs to be used
+    :type lst: list
+    :type num: int
+    :rtype: dictionary
+    """
     engine = pyttsx3.init()
     dic = {}
     dic_return = {}
