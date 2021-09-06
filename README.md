@@ -11,5 +11,5 @@ The drawing bot then predicts what the user tried to draw.
 
 Short demonstartion 
 
-![Using drawing bot](https://https://github.com/stalhaali/SelfLearningDrawingBot/blob/main/readme_files/demo.gif "Gif of using app")
+![Using drawing bot](https://github.com/stalhaali/SelfLearningDrawingBot/blob/main/readme_files/demo.gif "Gif of using app")
 
