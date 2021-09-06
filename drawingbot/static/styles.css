@@ -1,0 +1,41 @@
+#canvas {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.fuller {
+    width: 100%;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+body{
+    background-color: black;
+    background-image: url('banner.png');
+    background-position: left;
+}
+
+.rules{
+    background-image: url('rules.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.pics{
+    background-image: url('picture1.jpg');
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+}
+.navbar{
+    background-color:orange;
+}
+
+.fuller{
+    width: 100%
+}
