@@ -1,0 +1,3 @@
+*model_joblib filter=lfs diff=lfs merge=lfs -text
+*model2_joblib filter=lfs diff=lfs merge=lfs -text
+*model3_joblib filter=lfs diff=lfs merge=lfs -text
