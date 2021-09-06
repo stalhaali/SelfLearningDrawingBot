@@ -1,0 +1,14 @@
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/apple.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/pineapple.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/grapes.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/banana.npy
+
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/airplane.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/sailboat.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/bicycle.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/car.npy
+
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/square.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/circle.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/triangle.npy
+!wget https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/star.npy
