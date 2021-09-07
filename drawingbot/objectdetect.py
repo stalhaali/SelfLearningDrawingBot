@@ -23,7 +23,7 @@ def detect(data_url):
         #thresh = cv2.threshold(blur, 110 ,255, cv2.THRESH_BINARY_INV)[1]
         img1 = img.copy()
         all_pics = []
-        
+        height, width, channels = img.shape
 
         contours, Hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         i = 0
@@ -33,8 +33,19 @@ def detect(data_url):
                 peri = cv2.arcLength(cnt, True)
                 approx = cv2.approxPolyDP(cnt, 0.02*peri, True)
                 x, y, w, h = cv2.boundingRect(approx)
-                img0 = thresh [y-20:y+h+20, x-20:x+w+20]
-                img2display = img [y-20:y+h+20, x-20:x+w+20]
+                print(height)
+                print(width)
+                print(y-20)
+                print(y+h+20)
+                print(x-20)
+                print(x+w+20)
+                if (y-20 < 0) or (y+h+20 > height) or (x-20<0) or (x+w+20 > width):
+                        img0 = thresh [y:y+h, x:x+w]
+                        img2display = img [y:y+h, x:x+w]
+                else:
+                        img0 = thresh [y-20:y+h+20, x-20:x+w+20]
+                        img2display = img [y-20:y+h+20, x-20:x+w+20]
+                
                 #img0 = thresh [y:y+h, x:x+w]
                 new_img = cv2.resize(img0, (28, 28))
                 all_pics.append(new_img)
