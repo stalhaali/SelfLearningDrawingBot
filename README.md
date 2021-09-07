@@ -25,7 +25,7 @@ Now you can run the app :)
 
 # How to run
 
-Download this repository once all required libraries and git lfs are installed and then:
+Download this repository once all required libraries and git lfs are installed and then on command prompt:
 
 ```bash
 python run.py
