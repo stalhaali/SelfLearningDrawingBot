@@ -21,11 +21,16 @@ See (**requirements.txt**) for all the required libraries. Open command prompt a
 
 One must also have git lfs downloaded. Download from this [link](https://git-lfs.github.com/). Then open command prompt and type "git lfs install", to install. 
 
+Finally go to the directory you want to save this project in, and type
+
+```bash
+git lfs clone https://github.com/stalhaali/SelfLearningDrawingBot.git
+```
+
 Now you can run the app :)
 
 # How to run
-
-Download this repository once all required libraries and git lfs are installed and then on command prompt:
+Once in the directory,
 
 ```bash
 python run.py
