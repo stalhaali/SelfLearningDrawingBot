@@ -5,9 +5,9 @@ import pyttsx3
 #Models are loaded, as they take a really long time to train and create. Saving them 
 #and making them loadable like this creates for a much more effecient and faster
 #program
-model = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model_joblib')
-model2 = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model2_joblib')
-model3 = joblib.load(r'C:\Users\Talha\Desktop\project2\drawingbot\model3_joblib')
+model = joblib.load(r'drawingbot\model_joblib')
+model2 = joblib.load(r'drawingbot\model2_joblib')
+model3 = joblib.load(r'drawingbot\model3_joblib')
 
 
 def predict_img(lst, num):
