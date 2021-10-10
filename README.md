@@ -6,6 +6,8 @@
 
 (Note: Audio component of app does not work on browser version)
 
+# Description
+
 Given 3 categories, shapes, fruits, and vehicles, each of which contain 4 drawing options, the user must choose a category then draw as many of the 4 drawing objects.
 The drawing bot then predicts what the user tried to draw. If the prediction is correct, the drawing bot adds the drawings into its database and learns from this new data.
 
