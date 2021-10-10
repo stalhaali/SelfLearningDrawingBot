@@ -25,7 +25,7 @@ Short demonstartion
 ![Using drawing bot](https://github.com/stalhaali/SelfLearningDrawingBot/blob/main/readme_files/demo.gif "Gif of using app")
 
 # Installation
-One must also have git lfs downloaded. Download from this [link](https://git-lfs.github.com/). Then open command prompt and type "git lfs install", to install. 
+One must also have git lfs downloaded to properly run this app. Download it from this [link](https://git-lfs.github.com/). Then open command prompt and type "git lfs install", to install. 
 
 Go to the directory you want to save this project in, and type
 
