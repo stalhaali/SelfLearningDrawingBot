@@ -25,16 +25,15 @@ Short demonstartion
 ![Using drawing bot](https://github.com/stalhaali/SelfLearningDrawingBot/blob/main/readme_files/demo.gif "Gif of using app")
 
 # Installation
-See (**requirements.txt**) for all the required libraries. Open command prompt and type "pip install requirement" (for each requirement).
-
 One must also have git lfs downloaded. Download from this [link](https://git-lfs.github.com/). Then open command prompt and type "git lfs install", to install. 
 
-Finally go to the directory you want to save this project in, and type
+Go to the directory you want to save this project in, and type
 
 ```bash
 git lfs clone https://github.com/stalhaali/SelfLearningDrawingBot.git
 ```
 
+See (**requirements.txt**) for all the required libraries. Open command prompt and type "pip install -r requirements.txt" (for each requirement).
 Now you can run the app :)
 
 # How to run
