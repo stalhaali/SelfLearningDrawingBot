@@ -4,7 +4,7 @@
 
 [Click me](http://selflearningdrawingbot.pythonanywhere.com/) 
 
-(Note: Audio component of app does not work on browser version)
+(Note: Audio component of app does not work on browser version. If you would like to hear the audio (It's just a robot talking), feel free to download the app)
 
 # Description
 
